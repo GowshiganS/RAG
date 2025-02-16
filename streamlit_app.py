@@ -12,7 +12,7 @@ query = st.text_input("Enter your IT support question:")
 if st.button("Ask"):
     if query:
         # URL of the FastAPI endpoint (adjust the port if needed)
-        url = "http://127.0.0.1:8000/ask/"
+        url = "https://nkxnzpjn8a4xqwzkyizyub.streamlit.app/ask/"
         # Sending the query as a URL parameter
         params = {"query": query}
         try:
