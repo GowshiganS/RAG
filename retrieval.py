@@ -1,6 +1,7 @@
 # retrieval.py
 import numpy as np
 
+from embeddings_setup import docs, model, index  # Ensure this file is in the same directory
 
 def retrieve_documents(query, index, model, top_k=2):
     # Encoding the query
